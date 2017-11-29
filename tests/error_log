@@ -1,0 +1,2 @@
+[10-Nov-2017 18:21:59 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/adviseli/testserver.adviceli.com/tests/TestCase.php on line 8
+[11-Nov-2017 01:56:31 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/adviseli/testserver.adviceli.com/tests/TestCase.php on line 8

@@ -1,0 +1,132 @@
+----------------------------------
+| Laravel tutorial                |
+-----------------------------------
+YouTube link for that
+https://www.youtube.com/watch?v=R8B4og-BeCk&list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx
+
+
+
+--------------------------
+| Model basics in Laravel |
+---------------------------
+Migrations are useful to create Models & tables in our database
+
+Command to create a table with name posts
+  $ php artisan make:model Post --migration
+
+  /*  Successful creation of model 'Post'
+  D:\laravel-master\laravel>php artisan make:model Post --migration
+  Model created successfully.
+  Created Migration: 2017_06_20_101230_create_posts_table
+   */
+
+// strip_tags($body->content)
+ It is used to grab the plane text from databse without any html tags/styles
+If name of the model is Post than name of our table will be posts
+
+
+/*
+  | Another Way to create migration |
+  
+    $php artisan make:model Category //First letter of model name must be catpital
+    $php artisan make:migration create_categories_table --create=categories                                      
+*/
+
+/*
+  | If we want to add a column to the table name='posts'|
+  
+    $php artisan make:migration add_category_to_posts --table=posts  
+    after that change in created migration file i.e add column and than 
+    run the cmd: $php artisan migrate                                   
+*/
+
+ -----------------------------
+| Migration basics in Laravel |
+ -----------------------------
+ Laravel database can store both date & time in a single column.
+ (1)string-->Can store only 255 char.
+ (2)text-->Can store much more char than string (use for blogs) 
+
+
+ -------------------------------
+| Migrate Tables to the database|
+ -------------------------------
+ Use the following command to create the table in the database.
+ $ php artisan migrate
+
+ /* 
+ After successful execution of the command the terminal will show the following 
+ Migration table created successfully.
+ Migration: 2017_06_20_101230_create_posts_table
+ */
+
+ (1)Open Your Xampp control panel and start MySql server.
+ (2)Open phpMyadmin.
+ (3)Open the connected database and view tables.
+
+
+  -------------------------------
+| Create Controllers in Laravel |
+ -------------------------------
+ Use the following command to create a controller.
+  $ php artisan make:controller PostController --resource  // --resource is basicly used for CRUD
+
+ /* After Successful execution It will show the following message on terminal
+ Controller created successfuly
+ It means controller with name PostController created.
+ */ 
+
+
+  -------------------------------
+| Forms & HTML Installation      |
+ -------------------------------
+URL: https://laravelcollective.com/docs/5.2/html
+ (1)Go to composer.json file and put "laravelcollective/html":"^5.2.0" in the require section.
+ (2)Use the following command to load the Forms & HTML.
+     $ composer update
+ (3)Go to config dir and open app.php and put the following lines of code in the aliases section
+     'Form' => Collective\Html\FormFacade::class,
+     'Html' => Collective\Html\HtmlFacade::class,
+
+
+/* 
+ Whenevre you made some changes in your composer.json file you have to update your composer.json
+  The command to update the composer
+   $ composer update 
+*/
+
+
+  -------------------------------
+| Session & Flash Messages      |
+ -------------------------------
+
+* Flash exists for one page request. 
+* Put exists until session is removed.
+
+*If php artisan migrate give an error than run the command to rollback
+ $ php artisan migrate:rollback -> it will undo the recent changes in migration file.
+ $php artisan migrate:regresh ->  it will undo all the migration created and recreate them.
+* refresh is better than rollback beacuse in case of rollback there is a possibility to lose some data.
+
+
+
+ /*
+    The difference b/w {{$post->body}} & {!! $post->body !!} is that 
+     if we use !! then it will fetch database without any formating or any change
+     and if are using {} then it will convert the database text into <p>paragraph</p> tag
+ */
+
+
+/* 
+  // Image upload using laravel
+  
+ Link for image-upload composer installation - http://image.intervention.io/getting_started/installation
+ cmd: composer require intervention/image  
+*/
+
+
+/* MultiAuth In Laravel */
+Create a table with name admins
+$php artisan make:migration create_admins_table --create=admins
+
+create a duplicate model of User Model and rename it as Admin

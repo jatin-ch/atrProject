@@ -1,0 +1,414 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /home/adviseli/tmp/awstats/awstats.adviceli.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2688                
+POS_VISITOR 9809                
+POS_DAY 10818               
+POS_DOMAIN 3536                
+POS_LOGIN 3859                
+POS_ROBOT 4014                
+POS_WORMS 4518                
+POS_EMAILSENDER 4649                
+POS_EMAILRECEIVER 4792                
+POS_SESSION 11532               
+POS_SIDER 11741               
+POS_FILETYPES 4927                
+POS_DOWNLOADS 5117                
+POS_OS 5556                
+POS_BROWSER 5752                
+POS_SCREENSIZE 6112                
+POS_UNKNOWNREFERER 6186                
+POS_UNKNOWNREFERERBROWSER 6612                
+POS_ORIGIN 7033                
+POS_SEREFERRALS 7173                
+POS_PAGEREFS 7332                
+POS_SEARCHWORDS 7480                
+POS_KEYWORDS 7632                
+POS_MISC 2352                
+POS_ERRORS 7691                
+POS_CLUSTER 3715                
+POS_SIDER_404 7825                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901002206 69 13635 10883063134460
+FirstTime 20170801002515
+LastTime 20170831233002
+LastUpdate 20170901051556 69 0 68 0 0
+TotalVisits 190                 
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 134 1136049 99 116 244688
+1 10 10 1342 110 132 459367
+2 13 123 1073317 68 88 637151
+3 16 17 152298 369 392 26184709
+4 12 12 1804 239 268 3136061
+5 7 8 10445 190 207 988023
+6 6 37 632028 233 263 3284951
+7 14 14 3192980 89 116 1044650
+8 16 16 2064 271 294 784852
+9 25 25 8386 173 193 337364
+10 16 16 2461 180 279 1328767
+11 18 18 2151 188 207 8773173
+12 23 23 3228 166 187 6826669
+13 18 18 168044 104 120 1824142
+14 25 25 4708 53 72 1089000
+15 100 100 35921 45 69 606013
+16 82 82 31524 148 162 509780
+17 170 174 903792 53 81 794684
+18 259 259 99787 70 84 970194
+19 238 238 91789 95 138 1873380
+20 40 40 10229 115 137 789404
+21 17 17 1814 105 123 1109194
+22 14 15 163475 243 289 853999
+23 22 23 1707851 375 448 4002276
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 1146 1299 3274854
+gb 12 12 1696343
+cz 5 5 13
+ca 3 3 3190970
+in 2 122 1108158
+ru 1 1 167143
+eu 1 1 3
+de 1 1 3
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 1374 45950385 20170831221138 48
+googlebot\-image 349 15955171 20170823072731 0
+bot[\s_+:,\.\;\/\\-] 109 146463 20170831154031 108
+unknown 37 888 20170831232518 37
+spider 24 373710 20170831145227 3
+slurp 7 168 20170829033922 7
+crawl 4 96 20170828013824 4
+no_user_agent 2 48 20170810101643 2
+robot 2 48 20170827073617 2
+[\s_+:,\.\;\/\\-]bot 1 24 20170802085343 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 20 2449177 0 0
+js 104 1171342 0 0
+png 49 1291395 0 0
+php 1150 3571047 0 0
+xml 1 0 0 0
+css 117 932589 0 0
+jpg 3 21937 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/adviceli-new/wp-content/plugins/sf-booking/lib/cities.csv 2 0 252
+/adviceli-new/wp-content/plugins/sf-booking/inc/sample.csv 2 0 1180
+/adviceli-new/wp-content/plugins/sf-booking/payment-gateway/payulatam/release_notes/4.5.6.txt 2 0 356
+/adviceli-new/wp-content/themes/service-finder/inc/css/fontawesome/HELP-US-OUT.txt 1 0 231
+/adviceli-new/wp-content/plugins/sf-booking/lib/ipn.log 1 0 40
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win7 714 714
+Unknown 439 439
+macosx 113 3
+winxp 37 3
+win8.1 1 1
+linuxandroid 126 2
+winnt 1 0
+ios_iphone 3 3
+macosx9 4 0
+linux 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+chrome60.0.3112.101 1 1
+firefox11.0 3 0
+chrome59.0.3071.125 126 2
+msie9.0 1 0
+msie6.0 1 1
+firefox31.0 1 1
+chrome50.0.2661.75 2 2
+safari 3 3
+safari10.1.2 112 2
+Unknown 439 439
+mozilla 2 2
+firefox28.0 4 0
+firefox1.0 32 1
+chrome26.0.1410.63 2 2
+firefox49.0 1 1
+chrome42.0.2311.90 713 713
+chrome50.0.2661.102 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+WordPress/4.8.1;_http://adviceli.com/adviceli-new 20170827203826
+Go_1.1_package_http 20170825152955
+Faraday_v0.9.1 20170823104344
+WordPress/4.8;_http://adviceli.com/adviceli-new 20170802231622
+Go-http-client/1.1 20170831233002
+WordPress/4.8.1;_https://www.adviceli.com 20170831213618
+WordPress/4.8;_https://www.adviceli.com 20170802122543
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+WordPress/4.8.1;_http://adviceli.com/adviceli-new 20170827203826
+Go_1.1_package_http 20170825152955
+Go-http-client/1.1 20170831233002
+WordPress/4.8;_http://adviceli.com/adviceli-new 20170802231622
+Faraday_v0.9.1 20170823104344
+WordPress/4.8;_https://www.adviceli.com 20170802122543
+WordPress/4.8.1;_https://www.adviceli.com 20170831213618
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 18 57
+From1 0 0
+From2 713 713
+From3 0 0
+From4 440 674
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 713 713
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+405 4 88
+500 1065 0
+404 52 6019347
+302 7 14
+301 1425 4260
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 31
+/wp-config.php~ 1 http://adviceli.com/wp-config.php~
+/XOdoZ/VaKeZ/SfZkZ/blog/blog/what-is-an-emotional-intelligence-why-it-is-important-for-us/ 1 -
+/wp-content/uploads/wysija/themes/Gassrini/herewgo.php 1 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/wp-content/cache/wpfc-minified/e9e29f48f494c1ee68f5f796bfe70ac8/1501050282index.css 1 -
+/ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css 1 -
+/wp-content/plugins/wp-mobile-detector/admin/css/style.css 1 http://adviceli.com/wp-content/plugins/wp-mobile-detector/admin/css/style.css
+/sitemap_index.xml 2 -
+/maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css 1 -
+/don.php 1 -
+/code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css 1 -
+/WORDPRESS 1 -
+/ 4 http://www.google.com.hk
+/fonts.googleapis.com/css 6 -
+/site//xmlrpc.php 1 -
+/index.html 1 -
+/wp-content/cache/wpfc-minified/2395545f4d3624ce1fa4edf5e5e0f4c0/1502893337index.css 1 -
+/blog/blog/what-is-an-emotional-intelligence-why-it-is-important-for-us/ 8 https://www.adviceli.com/
+/admin/index.cfm 1 -
+/searchreplacedb2.php 1 http://adviceli.com/searchreplacedb2.php
+/wordpress 1 -
+/adviceli-new/wp-content/plugins/sf-booking/assets/bootstrap-calendar/tmpls/%3C%=%20event.url%20%%3E 2 -
+/wp 1 -
+/adviceli-new/wp-content/plugins/sf-booking/assets/bootstrap-calendar/language/en-US.js 1 http://adviceli.com/adviceli-new/
+/blog//xmlrpc.php 1 -
+/news-sitemap.xml 2 -
+/xmlsitemap.php 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/adviceli-new/wp-content/plugins/sf-booking/assets/bootstrap-calendar/tmpls/%3C%=%20event.url 2 -
+/wp-content/cache/wpfc-minified/e9e29f48f494c1ee68f5f796bfe70ac8/1503143463index.css 1 -
+/privacy.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+132.148.129.15 425 425 86414 20170831213618
+192.151.148.123 391 391 158355 20170820195806
+142.54.177.4 322 322 130410 20170817202147
+217.182.93.87 12 12 1696343 20170831233002
+95.168.196.25 5 5 13 20170825122055
+47.30.78.223 3 3 3190970 20170815075344
+64.233.173.141 2 37 442796 20170809000841
+43.230.105.194 2 122 1108158 20170802021255
+162.244.35.14 1 1 160874 20170813223716
+34.224.58.250 1 1 140042 20170802032135
+104.236.158.24 1 32 631577 20170824060244
+23.20.5.15 1 1 839 20170825152955
+188.226.168.182 1 1 3 20170830161507
+162.243.168.240 1 1 839 20170823104344
+82.211.30.109 1 1 3 20170824123944
+146.185.223.71 1 1 167143 20170826131057
+207.210.203.199 1 1 3 20170831022324
+52.91.216.216 0 1 215918 
+64.233.173.142 0 36 186145 
+64.233.173.143 0 43 467550 
+54.158.3.77 0 1 134255 
+52.90.249.208 0 1 76672 
+69.84.207.246 0 1 1281 
+66.249.82.121 0 1 9973 
+66.249.82.119 0 1 9973 
+54.82.232.102 0 1 410965 
+66.249.82.123 0 1 9973 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170801 22 22 5850 8
+20170802 21 131 1213813 11
+20170803 8 8 14 6
+20170804 5 5 10 2
+20170805 3 3 6 3
+20170806 1 1 2 1
+20170807 8 8 16 7
+20170808 4 4 8 4
+20170809 6 130 1134377 5
+20170810 4 4 8 2
+20170811 4 4 8 4
+20170812 3 3 6 3
+20170813 8 8 160888 7
+20170814 11 11 22 8
+20170815 5 5 3190974 3
+20170816 11 12 13889 7
+20170817 402 403 171849 7
+20170818 11 12 14123 6
+20170819 8 8 3402 6
+20170820 433 433 175402 8
+20170821 37 37 16706 6
+20170822 13 17 837836 6
+20170823 14 14 865 7
+20170824 17 48 631610 10
+20170825 24 24 888 10
+20170826 20 20 167179 11
+20170827 26 26 50 8
+20170828 14 14 28 10
+20170829 4 5 1289 4
+20170830 6 6 13 6
+20170831 18 18 1696356 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 26
+30mn-1h 24
+2mn-5mn 2
+30s-2mn 1
+15mn-30mn 6
+5mn-15mn 9
+0s-30s 122
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+//xmlrpc.php 713 288765 2 2
+/wp-cron.php 405 86413 167 165
+/adviceli-new/wp-cron.php 19 0 6 8
+/wp-admin/admin-ajax.php 6 18 3 4
+/blog/ 3 495160 2 2
+/itr/ 3 423137 3 1
+/index.php 3 3190970 1 1
+/feed/ 2 1678 2 2
+/wp-content/plugins/aa-booking/lib/captcha.php 2 4878 0 2
+/adviceli-new/wp-admin/upgrade.php 1 1 1 1
+/advisor_blogss/yoga-styles-you-never-heard-of/ 1 139310 0 0
+/advisor_blogss/why-hesitate-to-talk-10-tips-for-a-male-to-talk-with-a-female-known-friends-or-strangers/ 1 137859 0 0
+/advisor_blogss/what-is-an-emotional-intelligence-know-the-major-significances-of-it/ 1 143168 1 0
+//wp-admin/admin-post.php 1 2 1 0
+/advisor_blogss/how-to-keep-yourself-cool-glowing-in-this-summer/ 1 139802 0 0
+/sitemap.xml 1 0 1 1
+/register-as-an-expert/ 1 145483 0 1
+/faqs/ 1 131119 0 0
+/advisor_blogss/why-should-food-be-the-reason-one-should-travel/ 1 137062 0 0
+/advisor_blogss/fashion-trends-2k17/ 1 137389 0 0
+/advisor_blogss/10-diy-tips-to-look-stylish-at-the-office/ 1 142508 0 0
+// 1 2 0 0
+/advisor_blogss/why-should-keep-your-children-away-from-the-social-media-sites/ 1 138799 0 0
+/advisor_blogss/why-advice-is-important-for-all-of-us-why-taking-right-advice-matter-a-lot/ 1 136701 0 0
+END_SIDER

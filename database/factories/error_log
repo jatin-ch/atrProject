@@ -1,0 +1,1 @@
+[11-Nov-2017 05:11:48 UTC] PHP Fatal error:  Call to a member function define() on null in /home/adviseli/testserver.adviceli.com/database/factories/ModelFactory.php on line 15

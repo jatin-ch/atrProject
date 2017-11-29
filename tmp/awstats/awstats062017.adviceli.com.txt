@@ -1,0 +1,320 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+# Last config file used to build this data file was /home/adviseli/tmp/awstats/awstats.adviceli.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2686                
+POS_VISITOR 7123                
+POS_DAY 7635                
+POS_DOMAIN 3307                
+POS_LOGIN 3592                
+POS_ROBOT 3747                
+POS_WORMS 4104                
+POS_EMAILSENDER 4235                
+POS_EMAILRECEIVER 4378                
+POS_SESSION 7986                
+POS_SIDER 8164                
+POS_FILETYPES 4513                
+POS_DOWNLOADS 4797                
+POS_OS 4845                
+POS_BROWSER 4958                
+POS_SCREENSIZE 5160                
+POS_UNKNOWNREFERER 5234                
+POS_UNKNOWNREFERERBROWSER 5547                
+POS_ORIGIN 5855                
+POS_SEREFERRALS 5990                
+POS_PAGEREFS 6134                
+POS_SEARCHWORDS 6282                
+POS_KEYWORDS 6434                
+POS_MISC 2350                
+POS_ERRORS 6493                
+POS_CLUSTER 3448                
+POS_SIDER_404 6636                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701003433 15 4145 3508267411526
+FirstTime 20170616101052
+LastTime 20170630205712
+LastUpdate 20170701050253 15 0 14 0 0
+TotalVisits 55                  
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 4 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 2 14 16 791
+1 3 3 840 27 31 1850
+2 4 4 6734 19 34 64513
+3 6 116 3220734 16 18 50
+4 5 93 3033806 13 104 3299672
+5 2 90 2942849 8 8 237513
+6 25 266 9758608 168 169 259931
+7 2 2 2 5 5 4
+8 1 1 2 37 38 1452033
+9 2 2 4 8 9 44
+10 11 12 113515 23 26 245
+11 1 1 2 11 14 492
+12 0 0 0 0 0 0
+13 1 1 2 5 6 120495
+14 5 5 4 2 7 110
+15 7 7 6 17 17 26
+16 1 1 0 4 5 34
+17 2 2 2 11 11 119504
+18 4 4 4 9 10 16
+19 3 3 2 10 15 68
+20 1 1 2 12 13 52
+21 6 6 6738 8 10 6770
+22 6 11 50055 8 9 12
+23 0 0 0 13 13 504
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 60 148 3034712
+in 37 481 16063199
+ca 2 2 13468
+ua 1 1 838
+fr 0 1 21696
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+google[_+\s]web[_+\s]preview 90 2942764 20170624045708 0
+googlebot 9 246 20170630205711 9
+php 7 34132 20170617020515 0
+unknown 6 138 20170628015242 6
+bot[\s_+:,\.\;\/\\-] 4 110 20170630082222 4
+spider 1 6734 20170621213325 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+cgi 7 47138 0 0
+js 241 10282316 0 0
+png 120 2189857 0 0
+woff 5 105672 0 0
+woff2 1 18028 0 0
+gif 2 8324 0 0
+css 152 3439343 0 0
+svg 2 7138 0 0
+Unknown 3 101583 0 0
+php 75 1208146 0 0
+html 9 333200 0 0
+jpg 16 1393168 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+Unknown 50 50
+winnt 94 6
+macosx 480 36
+win7 9 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+Unknown 50 50
+firefox32.0 1 0
+msie11.0 90 2
+chrome59.0.3071.115 113 3
+chrome58.0.3029.110 217 35
+safari10.0 157 5
+firefox52.0 4 4
+opera36.0.2130.32 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/4.7.3;_https://www.adviceli.com 20170622144539
+WordPress/4.7.5;_https://www.adviceli.com 20170630205712
+WordPress/4.8;_https://www.adviceli.com 20170621181514
+WordPress/4.7.4;_https://www.adviceli.com 20170623065352
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/4.7.5;_https://www.adviceli.com 20170630205712
+WordPress/4.8;_https://www.adviceli.com 20170621181514
+WordPress/4.7.3;_https://www.adviceli.com 20170622144539
+WordPress/4.7.4;_https://www.adviceli.com 20170623065352
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 16 17
+From1 0 0
+From2 0 0
+From3 0 0
+From4 84 616
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 8 30094
+301 250 3230
+500 7 221236
+404 28 2285656
+302 170 37825
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/jm-ajax/upload_file/ 1 -
+/registerasanexpert 4 http://www.google.com/url
+/language/en-GB/language/en-GB/en-GB.xml 1 -
+/robots.txt 9 -
+/js/tools.js 1 -
+/ 12 http://adviceli.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+132.148.129.15 50 50 46 20170630205712
+203.145.165.231 32 388 13029393 20170629035039
+198.12.128.0 8 8 91817 20170616104156
+115.99.23.225 3 3 101583 20170629042054
+66.102.8.29 2 31 1127620 20170624050045
+43.230.105.194 2 90 2932223 20170624045805
+47.30.227.209 1 1 6734 20170617020149
+47.30.132.223 1 1 6734 20170616210024
+178.137.83.166 1 1 838 20170628015243
+149.202.173.144 0 1 21696 
+66.102.8.25 0 30 716917 
+66.102.8.27 0 29 1098312 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20170616 19 24 148606 8
+20170617 8 8 13468 7
+20170618 2 2 0 2
+20170619 4 4 0 4
+20170620 5 5 0 4
+20170621 4 4 0 3
+20170622 5 5 10 3
+20170623 29 270 9758616 6
+20170624 4 181 5896768 2
+20170625 2 2 4 2
+20170626 2 2 4 2
+20170627 4 4 8 4
+20170628 3 3 842 3
+20170629 7 117 3315583 3
+20170630 2 2 4 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+0s-30s 45
+30mn-1h 6
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/wp-cron.php 50 46 44 44
+/cgi-sys/defaultwebpage.cgi 7 47138 4 4
+/ 6 163851 1 0
+/wp-content/plugins/aa-booking/lib/captcha.php 6 14944 2 4
+/wp-admin/load-scripts.php 5 207449 0 0
+/wp-content/plugins/redux-framework/ReduxCore/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.woff 4 98136 0 0
+/wp-admin/options-general.php 4 542840 0 0
+/wp-admin/load-styles.php 4 340981 0 0
+/cpanel 3 101583 1 1
+/wp-admin/ 2 0 0 1
+/wp-login.php 2 6064 1 0
+/wp-admin/admin-ajax.php 1 503 0 0
+/blog/ 1 169349 1 0
+/phpinfo.php 1 91817 0 0
+/xmlrpc.php 1 838 1 1
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 1 7536 0 0
+/wp-content/themes/adviseli/get-calender-grid.php 1 2664 0 0
+/wp-content/themes/adviseli/inc/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+END_SIDER

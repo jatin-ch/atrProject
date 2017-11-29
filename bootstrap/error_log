@@ -1,0 +1,1 @@
+[11-Nov-2017 01:56:27 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/adviseli/testserver.adviceli.com/bootstrap/app.php on line 14

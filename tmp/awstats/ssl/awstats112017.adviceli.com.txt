@@ -1,0 +1,441 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201711 will be lost/reset.
+# Last config file used to build this data file was /home/adviseli/tmp/awstats/ssl/awstats.adviceli.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2699                
+POS_VISITOR 8386                
+POS_DAY 11346               
+POS_DOMAIN 3483                
+POS_LOGIN 4039                
+POS_ROBOT 4194                
+POS_WORMS 4624                
+POS_EMAILSENDER 4755                
+POS_EMAILRECEIVER 4898                
+POS_SESSION 11460               
+POS_SIDER 11655               
+POS_FILETYPES 5033                
+POS_DOWNLOADS 5309                
+POS_OS 5357                
+POS_BROWSER 5574                
+POS_SCREENSIZE 6367                
+POS_UNKNOWNREFERER 6441                
+POS_UNKNOWNREFERERBROWSER 6654                
+POS_ORIGIN 6862                
+POS_SEREFERRALS 7000                
+POS_PAGEREFS 7156                
+POS_SEARCHWORDS 7385                
+POS_KEYWORDS 7537                
+POS_MISC 2363                
+POS_ERRORS 7596                
+POS_CLUSTER 3895                
+POS_SIDER_404 7714                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171102045902 2811 825161 17480798006085
+FirstTime 20171101003234
+LastTime 20171102045902
+LastUpdate 20171102050102 2811 0 2803 8 0
+TotalVisits 83                  
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 72                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 499 13049221 12 12 900143
+1 17 277 5301447 8 16 2448136
+2 15 158 3668770 11 16 493316
+3 26 29 2680192 11 16 783791
+4 50 50 1706607 6 47 1637675
+5 2 2 344582 6 6 125041
+6 37 87 2274828 2 2 2
+7 13 13 261231 3 5 360012
+8 8 160 4301241 4 30 494150
+9 5 5 519934 6 28 1057873
+10 36 244 8010460 6 7 378922
+11 4 6 229747 2 26 245624
+12 8 8 779042 11 11 414039
+13 5 5 565590 7 10 648750
+14 10 167 4599179 7 111 1345913
+15 5 5 535927 4 6 433478
+16 2 2 176340 2 3 48054
+17 2 2 88000 5 6 358673
+18 5 5 708215 5 55 1093015
+19 2 2 172293 2 3 172314
+20 17 23 1387347 7 111 1007843
+21 30 32 851327 4 4 516872
+22 32 192 4471532 2 5 291102
+23 47 559 15615340 5 5 282303
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 23
+jp 139 350 5806237
+us 92 279 10775839
+in 88 1354 35836284
+pk 17 332 8708062
+nl 8 151 3706272
+ua 8 8 21285
+fr 7 7 1055857
+ru 6 7 900434
+cn 5 5 776944
+vg 5 5 643642
+de 4 4 708213
+gb 3 3 432579
+ch 3 3 516871
+my 2 3 190449
+tn 2 2 175353
+kr 2 2 363631
+ro 2 2 175352
+lk 2 2 175353
+tr 2 2 363633
+ca 2 6 368526
+co 2 3 411266
+pt 1 1 172290
+se 0 1 14020
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 330 5002896 20171102025028 13
+googlebot 88 3272342 20171102031949 1
+bingpreview 41 1193826 20171101045054 0
+spider 9 1164379 20171102015846 0
+php 7 1953672 20171102013348 0
+crawl 3 516872 20171101212419 0
+slurp 2 172315 20171101093305 1
+no_user_agent 1 172290 20171101134358 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+html 122 19860803 0 0
+woff 13 108332 0 0
+woff2 5 117704 0 0
+png 671 29413980 0 0
+php 261 2790982 0 0
+js 844 8869662 0 0
+jpg 159 8792969 0 0
+gif 5 24566 0 0
+ttf 1 11968 0 0
+jpeg 12 728012 0 0
+css 439 1579414 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+macosx 656 196
+winxp 136 29
+win7 170 24
+win8.1 326 10
+linuxandroid 529 32
+winnt 461 16
+macosx4 2 2
+ios_iphone 167 8
+linux 8 8
+Unknown 46 46
+win8 31 31
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+chrome62.0.3202.73 170 12
+firefox47.0 1 1
+chrome59.0.3071.115 3 3
+chrome57.5.0365.5092 2 2
+opera42.0.5017.0745 1 1
+chrome56.0.2924.87 198 16
+chrome59.0.3071.104 1 1
+msie9.0 2 2
+firefox54.0 3 3
+opera12.17 31 31
+chrome59.0.3071.86 6 6
+firefox40.1 12 12
+wget 2 2
+chrome55.1.6353.0080 1 1
+chrome60.0.3112.78 1 1
+chrome57.5.0106.6478 2 2
+chrome61.0.3163.98 162 5
+firefox11.0 4 0
+chrome61.0.3163.100 657 68
+chrome57.5.0395.5023 1 1
+chrome60.0.3112.113 133 82
+chrome62.0.3202.62 265 35
+opera44.5.1517.6889 1 1
+msie11.0 2 2
+chrome34.0.1847.137 1 1
+iphone 166 8
+safari10.0.3 2 2
+Unknown 46 46
+firefox56.0 324 8
+chrome52.0.2743.116 3 0
+safari10.1.2 163 4
+firefox7.0.1 23 23
+safari 1 0
+chrome49.0.2623.112 107 4
+safari11.0 34 15
+chrome59.0.3071.109 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WhatsApp/0.2.6426_N 20171101100446
+WordPress/4.8.3;_https://www.adviceli.com 20171102042417
+Go-http-client/1.1 20171101064801
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/0.2.6426_N 20171101100446
+WordPress/4.8.3;_https://www.adviceli.com 20171102042417
+Go-http-client/1.1 20171101064801
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 49 53
+From1 0 0
+From2 5 15
+From3 9 9
+From4 339 2455
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 5 15
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://adviseli.com 7 7
+http://m.facebook.com 1 1
+https://132.148.129.15:443 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 21 42
+403 4 0
+500 18 0
+404 17 2088407
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/recordings/ 1 -
+/blog/blog/what-is-an-emotional-intelligence-why-it-is-important-for-us/ 5 -
+/utility/convert/ 1 -
+/OShOi/ 1 -
+/apple-touch-icon-precomposed.png 1 -
+/w3wpdiag/ 1 -
+/comment-rating/suryawanshi-neha14/feed/ 1 -
+/WfWTN/ 1 -
+/oenSP/LKmXo/ 1 -
+/wls_utc 1 https://132.148.129.15:443/wls_utc
+/admin/config.php 1 -
+/apple-touch-icon.png 1 -
+/XmgLh/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 72
+157.119.82.186 139 350 5806237 20171102045902 20171102035841 /wp-admin/admin-ajax.php
+49.206.122.163 47 435 12559241 20171102000916
+132.148.129.15 42 42 84 20171102042417 20171102011128 /wp-cron.php
+49.207.54.101 15 34 2303332 20171101100446
+157.49.9.61 15 197 5106716 20171101100924
+91.200.12.91 8 8 21285 20171102031609
+45.116.233.47 8 166 4106796 20171102011308
+173.234.248.6 6 6 985736 20171102033656
+138.128.227.75 5 5 643642 20171102022004
+116.74.60.172 5 287 7516868 20171102003629
+185.119.255.217 5 5 691746 20171101040537
+119.156.6.76 5 162 4082302 20171101141538
+124.93.96.216 4 4 689160 20171101222110
+115.248.235.241 4 163 4071911 20171102004334
+95.97.135.26 4 147 3017110 20171102023918
+182.77.124.80 4 106 1022352 20171102014124
+27.7.251.140 4 162 4070663 20171101005235
+23.94.177.168 4 4 565588 20171101132656
+202.142.172.10 4 4 518964 20171101123937
+125.99.164.159 4 162 4070895 20171101234620
+162.247.73.206 3 3 516872 20171101154110
+192.126.153.228 3 3 516871 20171102033613
+192.126.153.194 3 3 516870 20171102033641
+23.229.104.171 3 3 535923 20171101230745
+198.12.69.198 3 3 299405 20171101201612
+51.15.212.104 1 1 172291 20171101011641
+162.211.72.10 1 2 105561 20171101111014
+190.251.143.233 0 1 47634 
+109.201.133.100 1 1 172291 20171101105824
+82.222.152.242 2 2 363633 20171101003237
+123.231.106.94 2 2 175353 20171102032509
+84.19.181.25 1 1 172291 20171101215930
+176.10.104.240 2 2 344582 20171101143907
+65.19.167.131 1 1 172291 20171101035049
+54.219.178.100 1 1 172290 20171101160400
+51.15.34.210 1 1 87998 20171101175944
+193.164.131.95 1 1 172290 20171101185056
+211.108.3.235 2 2 363631 20171101204109
+64.231.78.161 0 3 93356 
+185.87.185.45 1 1 172290 20171101232108
+60.191.38.78 1 1 87784 20171101113143
+139.162.116.133 1 1 172290 20171101064801
+80.82.77.33 1 1 172291 20171101053146
+148.251.176.102 2 2 363632 20171101045622
+46.72.202.153 0 1 36398 
+64.113.32.29 1 1 87784 20171101122258
+62.210.129.246 1 1 172290 20171101070738
+101.63.232.185 2 2 175353 20171101035433
+78.244.102.175 2 2 175352 20171101090635
+14.142.204.196 3 3 45669 20171101224102
+172.104.148.28 1 1 172291 20171101051723
+64.233.173.30 0 1 13795 
+210.19.170.174 0 1 15096 
+51.15.37.97 1 1 172290 20171101122822
+47.30.139.205 0 1 15096 
+64.233.173.28 0 2 437446 
+94.234.36.12 0 1 14020 
+185.163.1.11 1 1 172290 20171101093304
+64.233.173.29 0 1 11133 
+93.115.20.189 2 2 175352 20171101083242
+192.160.102.166 1 1 87784 20171101200637
+181.56.9.161 2 2 363632 20171101150524
+185.11.167.4 1 1 172290 20171101215946
+176.10.107.180 1 1 172289 20171101105814
+52.204.147.41 1 1 87784 20171101070000
+197.3.213.110 2 2 175353 20171101084431
+198.56.228.158 3 3 299109 20171101230825
+175.137.56.222 2 2 175353 20171102041240 20171102041236 /
+89.234.157.254 1 1 172291 20171101142943
+204.8.156.142 1 1 172290 20171101093310
+199.87.154.255 1 1 172290 20171101185050
+195.154.61.48 3 3 535924 20171101190207
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20171101 303 1711 52399252 66
+20171102 99 821 19899140 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 2
+30s-2mn 7
+15mn-30mn 3
+1h+ 6
+0s-30s 61
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/wp-admin/admin-ajax.php 154 1786548 3 6
+/ 86 14141137 52 40
+/wp-cron.php 42 84 8 7
+/wp-content/plugins/aa-booking/lib/captcha.php 38 89409 2 9
+/wp-login.php 12 41614 9 3
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 10 75360 0 3
+/register-as-an-expert/ 9 1334589 2 2
+/advisors-category/astrology-therapy-counseling/ 8 1530780 0 5
+/wp-content/themes/adviseli/inc/fonts/glyphicons-halflings-regular.woff2 4 72112 0 0
+/wp-admin/load-scripts.php 4 137874 0 0
+/about-us/ 3 385504 1 0
+/site-agreement/ 3 563096 1 0
+/xmlrpc.php 3 1215 2 2
+/advisors-category/career/ 3 479289 0 0
+/author/159/ 2 325873 0 0
+/wp-content/themes/adviseli/get_subcategory.php 2 13009 0 0
+/advisor_blogss/blank-cheque-is-not-a-blank-cartridge-it-can-hurt-bad/ 2 265657 1 1
+/author/128/ 2 378674 0 0
+/wp-content/plugins/comments-ratings/css/fonts/raty.woff 2 3592 0 0
+/home-1/ 2 249744 1 0
+/wp-admin/load-styles.php 2 141791 0 0
+/wp-admin/admin.php 2 263759 0 0
+/wp-admin/edit-comments.php 2 315679 0 0
+/wp-content/themes/adviseli/inc/css/newhome/fonts/RobotoLight.woff2 1 45592 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf 1 11968 0 1
+/advisors-category/doctor-medicine-ayush/ 1 80000 1 1
+/career/ 1 126460 0 0
+/wp-content/themes/adviseli/inc/css/newhome/fonts/fontawesome/fontawesome-webfont.woff 1 29380 0 0
+END_SIDER

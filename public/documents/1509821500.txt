@@ -1,0 +1,33 @@
+﻿* To change h1 tag to h2 in multiple lines than in sublime
+press ctrl + d and click 3 times the text you want to change.
+
+||************************************||
+|| Insalling Laravel setup on windows ||
+||************************************||
+
+1)download and install composer
+  link- https://getcomposer.org/download/
+
+2)open your comd prmpt and run the following command
+    c:\>composer
+
+3) create a dir anywhere with any name
+    I have created D:\>laravel-project
+
+4) Move to that dir
+    In my case c:\> d:  ---->  D:\>cd laravel-projects -----> D:\laravel-projects\>
+
+5) you have created the new directory and type the following command there to install Laravel.
+    composer create-project laravel/laravel –-prefer-dist
+
+6) Rename the folder --prefer-dist to laravel    /* It's your choice you can name with your choice */
+
+7)Run the following command to run  the laravel
+     D:\laravel-projects\laravel> php artisan serve
+
+8)Copy the following URL and open that URL in the browser
+    http://localhost:8000/
+
+
+
+/* For further details please visit tutorialspoint.com/laravel/  */
